@@ -39,7 +39,7 @@ namespace QA_Challenge
 
             //filter by name --------------- (2)
             driver.FindElement(By.XPath("//div[@id='actions']//input[@id='searchbox']")).SendKeys("ThinkPad");
-            driver.FindElement(By.XPath("//div[@id='actions']//a[@class='searchsubmit']")).Click();
+            driver.FindElement(By.XPath("//div[@id='actions']//input[@id='searchsubmit']")).Click();
             //Message shown as "25 computers found"
 
             //editing computer ------------- (3)
