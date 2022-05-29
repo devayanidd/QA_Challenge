@@ -36,7 +36,7 @@ namespace QA_Challenge
 
             //filter by name --------------- (2)
             driver.FindElement(By.Id("searchbox")).SendKeys("ThinkPad");
-            driver.FindElement(By.ClassName("searchsubmit")).Click();
+            driver.FindElement(By.Id("searchsubmit")).Click();
             //Message shown as "25 computers found"
 
             //editing computer ------------- (3)
