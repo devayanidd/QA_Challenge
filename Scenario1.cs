@@ -45,7 +45,7 @@ namespace QA_Challenge
             //editing computer ------------- (3)
             driver.FindElement(By.XPath("//tbody//tr//td//a[contains(text(),'ThinkPad')]")).Click();
             driver.FindElement(By.XPath("//div[@class='input']//input[@id='introduced']")).SendKeys("1993-01-01");
-            driver.FindElement(By.XPath("//div[@class='actions']//input[@value='Create this computer']")).Click();
+            driver.FindElement(By.XPath("//div[@class='actions']//input[@value='Save this computer']")).Click();
             //Message shown as "Done ! Computer ThinkPad has been updated"
         }
 
